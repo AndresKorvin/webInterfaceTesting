@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad8af7e6-ae34-41f0-b21c-186905b674f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver_win32/LICENSE.chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver_win32/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/SelenideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumNegativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumPositiveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +85,7 @@
       <command value="gradlew test -Dselenide.headless=true " />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SeleniumPositiveTest.shouldRegistred">
+  <component name="RunManager" selected="Gradle.webInterfaceTesting [test]">
     <configuration name="SeleniumNegativeTest.emptyFieldName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -108,29 +100,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;ru.netology.SeleniumNegativeTest.emptyFieldName&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SeleniumNegativeTest.emptyFieldPhone" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumNegativeTest.emptyFieldPhone&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,13 +178,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="webInterfaceTesting [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="-Dselenide.headless=true" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.webInterfaceTesting [test]" />
         <item itemvalue="Gradle.SeleniumPositiveTest.shouldRegistred" />
         <item itemvalue="Gradle.Tests in 'ru.netology'" />
         <item itemvalue="Gradle.SeleniumNegativeTest.notCheckBox" />
         <item itemvalue="Gradle.SeleniumNegativeTest.emptyFieldName" />
-        <item itemvalue="Gradle.SeleniumNegativeTest.emptyFieldPhone" />
       </list>
     </recent_temporary>
   </component>
