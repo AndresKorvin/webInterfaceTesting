@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Condition.*;
 
 class SelenideTest {
 
-    @Test
+    @Test //gradlew test -Dselenide.headless=true
     void testForm() {
 
         open("http://localhost:9999/");

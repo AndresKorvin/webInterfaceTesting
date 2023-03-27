@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ad8af7e6-ae34-41f0-b21c-186905b674f1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumNegativeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumPositiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumPositiveTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +87,8 @@
       <command value="gradlew test -Dselenide.headless=true " />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.webInterfaceTesting [test]">
-    <configuration name="SeleniumNegativeTest.emptyFieldName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Tests in 'ru.netology'">
+    <configuration name="SelenideTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -99,7 +101,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumNegativeTest.emptyFieldName&quot;" />
+            <option value="&quot;ru.netology.SelenideTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -109,7 +111,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SeleniumNegativeTest.notCheckBox" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumNegativeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -122,7 +124,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumNegativeTest.notCheckBox&quot;" />
+            <option value="&quot;ru.netology.SeleniumNegativeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -201,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'ru.netology'" />
+        <item itemvalue="Gradle.SelenideTest" />
+        <item itemvalue="Gradle.SeleniumNegativeTest" />
         <item itemvalue="Gradle.webInterfaceTesting [test]" />
         <item itemvalue="Gradle.SeleniumPositiveTest.shouldRegistred" />
-        <item itemvalue="Gradle.Tests in 'ru.netology'" />
-        <item itemvalue="Gradle.SeleniumNegativeTest.notCheckBox" />
-        <item itemvalue="Gradle.SeleniumNegativeTest.emptyFieldName" />
       </list>
     </recent_temporary>
   </component>
