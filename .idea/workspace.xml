@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad8af7e6-ae34-41f0-b21c-186905b674f1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumNegativeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumPositiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumPositiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver_linux/LICENSE.chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver_linux/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver_win32/LICENSE.chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver_win32/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/SelenideTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +30,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="webInterfaceTesting" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -87,7 +102,7 @@
       <command value="gradlew test -Dselenide.headless=true " />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'ru.netology'">
+  <component name="RunManager" selected="Gradle.SelenideTest">
     <configuration name="SelenideTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -125,29 +140,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;ru.netology.SeleniumNegativeTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SeleniumPositiveTest.shouldRegistred" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumPositiveTest.shouldRegistred&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -201,13 +193,17 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="app-order.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/artifacts/app-order.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'ru.netology'" />
         <item itemvalue="Gradle.SelenideTest" />
+        <item itemvalue="JAR Application.app-order.jar" />
+        <item itemvalue="Gradle.Tests in 'ru.netology'" />
         <item itemvalue="Gradle.SeleniumNegativeTest" />
         <item itemvalue="Gradle.webInterfaceTesting [test]" />
-        <item itemvalue="Gradle.SeleniumPositiveTest.shouldRegistred" />
       </list>
     </recent_temporary>
   </component>
